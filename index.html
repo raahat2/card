@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="backgroundColor">
+        <!-- <img src="./images/bg-main-desktop.png" /> -->
+      </div>
+      <div class="thankYou" id="thankYou">
+        <img src="./images/icon-complete.svg" />
+        <h1>THANK YOU!</h1>
+        <p>We've added your card details!</p>
+        <button onclick="cont()">continue</button>
+      </div>
+      <div class="inputWraper" id="inputWraper">
+        <div class="details">
+          <label class="inputLabel">CARDHOLDER NAME</label>
+          <input
+            class="inputBox"
+            placeholder="e.g. Jane Applesed"
+            id="nameInput"
+            minlength="12"
+          />
+          <p id="nameError" class="error"></p>
+        </div>
+        <div class="details">
+          <label class="inputLabel">CARD NUMBER</label>
+          <input
+            class="inputBox"
+            placeholder="e.g. 1234 5678 9123 0000"
+            id="cardNumberInput"
+            maxlength="16"
+          />
+          <p id="cardNumberError" class="error"></p>
+        </div>
+        <div class="expiryCvv">
+          <div class="expiry">
+            <label class="inputLabel">EXP DATE (MM/YY)</label>
+            <input
+              placeholder="MM"
+              class="monthInput"
+              id="monthInput"
+              maxlength="2"
+            />
+
+            <input
+              placeholder="YY"
+              class="yearInput"
+              id="yearInput"
+              maxlength="2"
+            />
+            <p id="dateError" class="error"></p>
+          </div>
+          <div class="cvv">
+            <label class="inputLabel">CVV</label>
+            <input
+              class="inputBox"
+              placeholder="e.g. 123"
+              id="cvvInput"
+              maxlength="3"
+            />
+            <p id="cvvError" class="error"></p>
+          </div>
+        </div>
+        <div class="confirmButton">
+          <button
+            type="button"
+            class="confirm"
+            id="confirm"
+            onclick="onConfirm()"
+          >
+            CONFIRM
+          </button>
+        </div>
+      </div>
+      <div class="cardFront">
+        <div class="logo">
+          <div class="cardLogo1"></div>
+          <div class="cardLogo2"></div>
+        </div>
+        <p class="number" id="number">0000 0000 0000 0000</p>
+        <div class="cardName">
+          <p id="name">JANE APPLESED</p>
+          <p id="date">00/00</p>
+        </div>
+      </div>
+
+      <div class="cardBack">
+        <p class="cvv" id="cvv">000</p>
+      </div>
+    </div>
+  </body>
+  <script src="./js/javascript.js"></script>
+</html>

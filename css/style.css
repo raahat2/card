@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+}
+body{
+    min-height: 100%;
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.container .backgroundColor{
+    height: 713px;
+    width: 31%;
+    background-image: url(/images/bg-main-desktop.png)
+
+}
+.backgroundColor img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+}
+.details{
+    margin-bottom: 10px;
+    margin-bottom: 25px;
+}
+.inputWraper{
+    max-width: 35%;
+    margin: 0;
+    margin-right: 10%;
+    padding: 100px;
+
+}
+.inputWraper .inputLabel{
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #655C71;
+}
+.inputWraper .inputBox{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-top: 5px;
+   
+    font-size: 12px;
+}
+.inputWraper .expiryCvv{
+    display: flex;
+}
+.expiryCvv .expiry{
+    width: 50%;
+}
+.expiry .monthInput{
+    width:38%;
+    padding:12px;
+    margin-top: 5px;
+    color:black ;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #DDDDDD;
+}
+.expiry .yearInput{
+    width:38%;
+    padding:12px;
+    margin-left: 5px;
+    margin-top: 5px;
+   
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.expiryCvv .cvv{
+    width: 33%;
+    margin-left: 39px;
+
+}
+.confirmButton .confirm{
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    padding: 12px;
+    background-color: #220930;
+    border-radius: 5px;
+}
+.container .cardFront{
+    width: 384px;
+    height: 200px;
+    position: absolute;
+    background-image: url(/images/bg-card-front.png);
+    object-fit: cover;
+    text-align: center;
+    padding: 27px;
+    border-radius: 7px;
+    left: 16%;
+    top: 20%;
+    background-size: cover;
+
+  
+}
+.cardFront .logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12%;
+}
+.cardFront .number{
+    color: white;
+    font-size: 26px;
+    margin: 0px;
+    letter-spacing: 4px;
+}
+.cardFront .cardLogo1{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    background: white;
+    margin-right: 10px;
+    
+
+}
+.cardFront .cardLogo2{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+}
+.cardFront .cardName{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 23px;
+
+}
+.cardName p{
+    margin-bottom: 0px;
+    font-size: 11px;
+}
+.container .cardBack{
+    position: absolute;
+    background-image: url("/images/bg-card-back.png");
+    object-fit: cover;
+    width: 384px;
+    height: 200px;
+    border-radius: 7px;
+    left: 25%;
+    bottom: 19%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 0.5px solid #E7E7E7;
+
+}
+.cardBack .cvv{
+    margin-right: 11%;
+    margin-top: 6%;
+    color: white;
+}
+.container .error{
+    font-size:10px;
+}
+.container .thankYou{
+    display: none;
+    width: 59%;
+    text-align: center;
+    
+}
+.thankYou button{
+    width: 30%;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    padding: 12px;
+    background-color: #220930;
+    border-radius: 5px;
+}

@@ -1,0 +1,222 @@
+@media only screen and (max-width: 1025px){
+    .container .cardFront {
+        width: 400px;
+     
+        left: 8%;
+    }
+    .container .cardBack {
+        
+        width: 400px;
+     
+       
+        left: 19%;
+        bottom: 19%;
+    }
+    .inputWraper .inputBox {
+       
+        padding: 9px;
+       
+    }
+    .expiryCvv .expiry {
+        width: 50%;
+    }
+    .expiry .monthInput {
+        width: 46%;
+        padding: 5px;
+    }
+        .expiry .yearInput {
+            width: 46%;
+            padding: 5px;
+        margin-left: 1px;
+        } 
+        .expiryCvv .cvv {
+           
+            margin-left: 15px;
+            width:45%;
+        }
+}
+@media only screen and (max-width:956px) {
+    .container .cardBack {
+        width: 400px;
+        left: 8%;
+        bottom: 28%;
+    }
+    .container .cardfront {
+        width: 400px;
+        left: 2%;
+       
+    }}
+    @media only screen and (max-width: 912px){
+        .container{
+            display: block;
+         }
+         .container .backgroundColor {
+             height: 280px;
+             width: 100%;
+         }
+         .container .cardFront {
+ 
+             left: 14%;
+             z-index: 1;
+         }
+         .container .cardBack {
+             
+             left: 29%;
+             top: 44px;
+         }
+         .inputWraper {
+             max-width: 100%;
+             margin-right: 0;
+             padding: 113px;
+         }
+         .expiryCvv .expiry {
+             width: 33%;
+         }
+    }
+    @media only screen and (max-width: 821px){
+        .container{
+           display: block;
+        }
+        .container .backgroundColor {
+            height: 280px;
+            width: 100%;
+        }
+        .container .cardFront {
+
+            left: 14%;
+            z-index: 1;
+        }
+        .container .cardBack {
+            
+            left: 29%;
+            top: 44px;
+        }
+        .inputWraper {
+            max-width: 100%;
+            margin-right: 0;
+            padding: 113px;
+        }
+        .expiryCvv .expiry {
+            width: 39%;
+        }
+    }
+@media only screen and (max-width: 769px){
+    .container{
+        display: block;
+    }
+    .container .backgroundColor{
+        width: 100%;
+        
+        height: 300px;
+    }
+    .container .inputWraper{
+        max-width: 80%;
+        margin-top: 11%;
+        margin-left: 10%;
+        padding: 20px;
+    }
+    .expiryCvv .cvv {
+        width: 20%;
+    }
+    .expiryCvv .expiry {
+        width: 25%;
+    }
+    .container .cardFront{
+        width: 50%;
+        z-index: 1;
+        top: 161px;
+        left: 117px;
+    }
+    .container .cardBack{
+        width: 50%;
+        top: 22px;
+    left: 207px;
+    }
+    .cardFront .number {
+        
+        font-size: 25px;
+       
+    }
+    .expiry .monthInput {
+       
+        padding: 12px;
+    }
+    .expiry .yearInput {
+        
+        padding: 12px;
+    }
+}
+@media only screen and (max-width: 540px){}
+
+@media only screen and (max-width: 427px){
+    .container .cardFront{
+        width: 70%;
+        height: 24%;
+    left: 6%;
+    top:18%;
+}
+.cardFront .number{
+    color: white;
+    letter-spacing: 8px;
+    font-size: 9px;
+}
+.container .cardBack {
+    width: 70%;
+    height: 24%;
+    top: 3%;
+    left: 22%;
+}
+.expiryCvv .cvv {
+    width: 50%;
+}
+.expiryCvv .expiry {
+    width: 44%;
+}
+.inputWraper .inputBox {
+   
+    padding: 11px;
+    font-size: 15px;
+    
+}
+.expiry .monthInput {
+    width: 40%;
+    padding: 7px;
+}
+.expiry .yearInput {
+    width: 40%;
+    padding: 7px;
+    margin-left: 4px;
+}
+.confirmButton .confirm {
+    
+    padding: 15px;
+}
+.container .backgroundColor {
+    
+    height: 240px;
+}
+.cardFront .cardName {
+   
+    font-size: 12px;
+    margin-top: 15px;
+}   
+}
+@media only screen and (max-width: 401px){
+    .expiryCvv .cvv {
+        width: 45%;
+    }
+    .expiryCvv .expiry {
+        width: 51%;
+    }
+    .cardFront .number {
+       
+        letter-spacing: 6px;
+       
+    }
+    
+}
+@media only screen and (max-width: 359px){
+    .expiryCvv .expiry {
+        width: 72%;
+    }
+}
